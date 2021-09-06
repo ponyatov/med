@@ -6,5 +6,8 @@
 github: https://github.com/ponyatov/med/
 
 
+* inspired by DOS Navigator & MultiEdit
+* console-oriented to be usable in embedded systems
+
 <hr>
 powered with [metaL](https://github.com/ponyatov/metaLgen)

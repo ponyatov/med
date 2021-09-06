@@ -62,6 +62,7 @@ watch:
 .PHONY: doxy
 doxy:
 	rm -rf docs ; doxygen doxy.gen 1>/dev/null
+	rm -rf target/doc ; $(CARGO) doc --no-deps
 
 .PHONY: doc
 doc:
